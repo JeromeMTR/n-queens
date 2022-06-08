@@ -26,7 +26,7 @@ describe('Board', function() {
     });
 
     it('should not find a minorDiagonal conflict', function() {
-      expect(board.hasAnyMinorDiagonalConflicts()).to.be.equal(false);
+      expect(board.hasAnyReverseDiagonalConflicts()).to.be.equal(false);
     });
 
     it('should not find a queens conflict', function() {
@@ -60,7 +60,7 @@ describe('Board', function() {
     });
 
     it('should not find a minorDiagonal conflict', function() {
-      expect(board.hasAnyMinorDiagonalConflicts()).to.be.equal(false);
+      expect(board.hasAnyReverseDiagonalConflicts()).to.be.equal(false);
     });
 
     it('should find a queens conflict', function() {
@@ -94,7 +94,7 @@ describe('Board', function() {
     });
 
     it('should not find a minorDiagonal conflict', function() {
-      expect(board.hasAnyMinorDiagonalConflicts()).to.be.equal(false);
+      expect(board.hasAnyReverseDiagonalConflicts()).to.be.equal(false);
     });
 
     it('should find a queens conflict', function() {
@@ -128,7 +128,7 @@ describe('Board', function() {
     });
 
     it('should not find a minorDiagonal conflict', function() {
-      expect(board.hasAnyMinorDiagonalConflicts()).to.be.equal(false);
+      expect(board.hasAnyReverseDiagonalConflicts()).to.be.equal(false);
     });
 
     it('should find a queens conflict', function() {
@@ -160,7 +160,7 @@ describe('Board', function() {
     });
 
     it('should not find a minorDiagonal conflict', function() {
-      expect(board.hasAnyMinorDiagonalConflicts()).to.be.equal(false);
+      expect(board.hasAnyReverseDiagonalConflicts()).to.be.equal(false);
     });
 
     it('should find a queens conflict', function() {
@@ -194,7 +194,7 @@ describe('Board', function() {
     });
 
     it('should find a minorDiagonal conflict', function() {
-      expect(board.hasAnyMinorDiagonalConflicts()).to.be.equal(true);
+      expect(board.hasAnyReverseDiagonalConflicts()).to.be.equal(true);
     });
 
     it('should find a queens conflict', function() {
@@ -226,7 +226,7 @@ describe('Board', function() {
     });
 
     it('should find a minorDiagonal conflict', function() {
-      expect(board.hasAnyMinorDiagonalConflicts()).to.be.equal(true);
+      expect(board.hasAnyReverseDiagonalConflicts()).to.be.equal(true);
     });
 
     it('should find a queens conflict', function() {
